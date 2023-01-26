@@ -1,0 +1,18 @@
+server:
+  port:8999
+
+
+eureka:
+  instance:
+    hostname: localhost
+
+spring:
+  application:
+    name: springcloudapigateway-service
+  cloud:
+    gateway:
+      routes:
+        - id: user-service
+          uri: lb://user-service
+          predicates:
+            - Path=/user/**, /api/**
