@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="JpbDataSourceConfig">
+    <data-sources>
+      <data-source id="2a76456b-c9a7-489d-8464-020aba9314dc" name="jwtdatabaseconn" url="jdbc:postgresql://localhost:5432/jwt" driverClass="org.postgresql.Driver" />
+    </data-sources>
+  </component>
+</project>
